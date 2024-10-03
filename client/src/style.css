@@ -1,0 +1,968 @@
+.logo1 {
+    width: 75px;
+    height: 44px;
+}
+
+.navhome {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    font-stretch: expanded;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navhome:hover {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #df453e;
+    /* font-stretch: expanded; */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navcart {
+    width: 15px;
+    height: 15px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.bannerbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/bike1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.bannerright {
+    background-color: #df453e;
+    opacity: 60%;
+    height: 100vh;
+}
+
+.bannerhead {
+    padding-top: 120px;
+    text-align: left;
+    float: right;
+    max-width: 550px;
+}
+
+.bannertitle {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.bannertitle2 {
+    color: #f5f5f5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 62px;
+    font-weight: 600;
+}
+
+.bannertitle3 {
+    color: #f5f5f5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+}
+
+.arrival {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 120px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .arrival {
+        font-size: 40px;
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .arrival {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+}
+
+.arimg {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.arrivalname {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+
+.arrivalname:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #df453e;
+    cursor: pointer;
+}
+
+.mountimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../public/images/mount.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+}
+
+.mounthead {
+    padding-top: 120px;
+    text-align: left;
+    float: right;
+    max-width: 550px;
+    position: relative;
+    z-index: 1;
+}
+
+.mounttitle {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.mounttitle2 {
+    color: #f5f5f5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.mountitle3 {
+    font-size: 14px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .mountimg {
+        height: 80vh;
+    }
+
+    .mounthead {
+        padding-top: 60px;
+    }
+
+    .mounttitle {
+        font-size: 24px;
+    }
+
+    .mounttitle2 {
+        font-size: 40px;
+    }
+
+    .mountitle3 {
+        font-size: 12px;
+    }
+}
+
+.mountimg2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../public/images/mount2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.mountimg3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../public/images/mount3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.accessories {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 120px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .accessories {
+        font-size: 40px;
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .accessories {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+}
+
+.accimg {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.accimg:hover {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3); 
+}
+
+.accname {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.accname:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #df453e;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.explorelabel {
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.explorelabel:hover {
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.mountimg4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/images/bike1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.mountendhead {
+    padding-top: 120px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.mountendtitle {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.mountendtitle2 {
+    color: #f5f5f5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.mountendtitle3 {
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: xx-small;
+}
+
+@media (min-width: 576px) {
+    .mountendtitle3 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mountendtitle3 {
+        font-size: 18px;
+    }
+}
+
+.mountendtop {
+    margin-top: 100px;
+}
+
+/* ---------------------------------------------Footer section---------------------------------------------------------------- */
+.logofoot {
+    width: 80px;
+    height: 50px;
+}
+
+.footnav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.footitem {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footitem:hover {
+    color: #df453e;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------Bicycle product page-------------------------------------------------------------  */
+
+.sec1 {
+    background-color: #ffffff;
+}
+
+.dd {
+    background-color: #de7c12;
+}
+
+.sec1head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.filtercontent {
+    color: #df453e;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.bicyclehead {
+    color: #df453e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.acchead {
+    color: #df453e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .acchead {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .acchead {
+        font-size: 30px;
+    }
+}
+
+.dd {
+    color: #df453e;
+}
+
+.ee {
+    color: #39d812;
+}
+
+.offcanvasimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.offcontent {
+    cursor: pointer;
+}
+
+.offfooter {
+    margin-top: 200px;
+}
+
+.aboutbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/mount.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.abouthead {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .abouthead {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .abouthead {
+        font-size: 40px;
+    }
+}
+
+.processhead {
+    font-size: 60px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .processhead {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .processhead {
+        font-size: 40px;
+    }
+}
+
+.processh {
+    font-weight: 700;
+    font-style: italic;
+    color: #df453e;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.processh1 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.processpara {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .processh {
+        font-size: 16px;
+    }
+
+    .processh1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .processh {
+        font-size: 14px;
+    }
+
+    .processh1 {
+        font-size: 16px;
+    }
+}
+
+.contactbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/images/riders.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+}
+
+.contacthead {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 130px;
+}
+
+@media (max-width: 768px) {
+    .contacthead {
+        font-size: 50px;
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contacthead {
+        font-size: 40px;
+        padding-top: 150px;
+    }
+}
+
+.map-container {
+    position: relative;
+    padding-bottom: 30%;
+    height: 0;
+    overflow: hidden;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+}
+
+.footlink {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cartbg {
+    background-color: #f5f5f5;
+}
+
+.cartcon {
+    background-color: #ffffff;
+}
+
+
+.magnifier-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.magnifier-glass {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border: 0px;
+    pointer-events: none;
+    /* background: url('../public/images/ar1.jpg') no-repeat;
+    background-size: 180% 180%; */
+    transform: scale(2);
+    transform-origin: 0 0;
+    z-index: 2;
+    display: none;
+}
+
+.magnify .magnifier-glass {
+    display: block;
+}
+
+
+.cartbread {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.cartl {
+    text-decoration: none;
+    color: #df453e;
+    font-weight: 600;
+    font-size: large;
+}
+
+.cartl:hover {
+    text-decoration: none;
+    color: #e13a32;
+    font-weight: 600;
+    font-size: large;
+}
+
+.carthead {
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+.cartprize {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cartlm {
+    text-decoration: none;
+    color: #df453e;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cartlm:hover {
+    text-decoration: none;
+    color: #e13a32;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.des {
+    font-weight: 500;
+    color: #444242;
+}
+
+.viewcartbg {
+    background-color: #f5f5f5;
+}
+
+.viewcartcon {
+    background-color: #ffffff;
+}
+
+.viewcarthead {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.tableheadcart {
+    font-size: 18px;
+    font-weight: 700;
+    color: #555454;
+}
+
+.tableconcart {
+    width: 70px;
+    display: flex;
+}
+
+.iconcart {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.viewcartpro {
+    color: #df453e;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+
+}
+
+
+@media (min-width: 768px) {
+    .tableheadcart {
+        font-size: 16px;
+    }
+
+    .iconcart {
+        font-size: 20px;
+    }
+
+    .viewcartpro {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) {
+    .tableconcart {
+        width: 50px;
+    }
+
+    .iconcart {
+        font-size: 18px;
+    }
+
+    .viewcartpro {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .tableheadcart {
+        font-size: 16px;
+    }
+
+    .tableconcart {
+        width: 50px;
+    }
+
+    .iconcart {
+        font-size: 20px;
+    }
+
+    .viewcartpro {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .tableconcart {
+        width: 30px;
+    }
+
+    .iconcart {
+        font-size: 18px;
+    }
+
+    .viewcartpro {
+        font-size: 12px;
+    }
+
+    .d-none.d-lg-block {
+        display: none; 
+    }
+}
+
+
+.totalcart {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.loginbg {
+    background-image: linear-gradient(rgba(54, 27, 27, 0.7), rgba(130, 40, 40, 0.7)), url('../public/images/mount2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    background-repeat: no-repeat;
+}
+
+.loginheader {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.logbgbox {
+    background-color: #F7F7F7;
+    width: 50%;
+    display: flex;
+}
+
+.loginbtn {
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .logbgbox {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .logbgbox {
+        width: 100%;
+    }
+}
+
+.logfoot {
+    text-decoration: none;
+    color: #000;
+}
+
+.logfoot:hover {
+    text-decoration: none;
+    color: #847f7f;
+}
+
+.profileeditbg {
+    background-image: linear-gradient(rgba(54, 27, 27, 0.8), rgba(130, 40, 40, 0.8)), url('../public/images/ar4.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+
+.explorelabel.selected {
+    background-color: #df453e;
+    color: #fff; 
+}
+
+.successcart{
+    background-color: #F4FFF7;
+    border: 1px solid #4AB866; 
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .successcart {
+   padding-top: 20px;
+    }
+  }
+
+@media (max-width: 767.98px) {
+    .successcart {
+        padding-top: 20px;
+    }
+  }
+
+.checkoutbg {
+    background-color: #f5f5f5;
+}
+
+.chechkoutcon {
+    background-color: #ffffff;
+   
+}
+
+.checkouthead {
+    font-size: 30px;
+    font-weight: 750;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.checkbill{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.billformlabel{
+    font-weight: 700;
+    font-family:sans-serif;
+}
+
+.redAsterisk {
+    color: red;
+}
+
+.paymentborder{
+    color: #de7c12;
+    border: 2px solid rgb(207, 207, 207);
+}
+
+.orderheadbill{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;  
+    display: flex;
+}
+
+.orderhead{
+    font-weight: bold;
+    font-family:sans-serif;
+    
+}
+
+.small-hr {
+    height: 2px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: #787676; 
+  }
+
+  .orderdetails{
+    font-weight: 500;
+    font-family:sans-serif;
+ 
+  }
+
+
+  @media (max-width: 768px) {
+    .orderheadbill {
+      font-size: 16px;
+      display: flex;
+    }
+  
+    .orderdetails {
+      font-size: 10px;
+      display: flex;
+    }
+    .orderhead {
+      font-size: 10px;
+      display: flex;
+    }
+
+    .orderimg {
+        max-width: 100%; 
+        height: auto; 
+        width: 60px;
+      }
+  }
+  
+  
+  @media (max-width: 576px) {
+    .orderheadbill {
+      font-size: 14px;
+      display: flex;
+    }
+  
+   
+    .orderdetails {
+      font-size: 12px;
+      display: flex;
+    }
+    .orderhead {
+      font-size: 12px;
+      display: flex;
+    }
+
+    .orderimg {
+        max-width: 100%; 
+        height: auto; 
+        width: 60px;
+      }
+  }
+
+
+
+.orderbg1 {
+    background-color: #f5f5f5;
+}
+
+.ordercon1 {
+    background-color: #ffffff;
+}
+
+.orderhead1 {
+    font-size: 2.0rem;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.orderimg1{
+    width: 80px;
+    cursor: pointer;
+}
+
+
+
